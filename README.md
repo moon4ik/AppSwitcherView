@@ -1,2 +1,2 @@
-# LockScreen
-Show LaunchScreen instead app snapshot.
+# AppSwitcherView
+Show your custom view (default LaunchScreen) instead app snapshot in quick App Switcher.
