@@ -9,7 +9,7 @@ Show LaunchScreen or your UIView/UIViewController instead app snapshot in the [A
 ## Requirements
 
 - iOS 10.0+
-- Xcode 9.0+
+- Xcode 10.0+
 - Swift 4.2+
 
 ## Installation
