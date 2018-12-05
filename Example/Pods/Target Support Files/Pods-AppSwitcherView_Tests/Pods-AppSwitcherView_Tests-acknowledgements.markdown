@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## AppSwitcherView
 
-Copyright (c) 2018 Oleksii Mykhailenko <ole.mykhailenko@temabit.com>
+Copyright (c) 2018 Oleksii Mykhailenko <moon4ik@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

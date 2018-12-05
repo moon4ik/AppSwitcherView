@@ -155,7 +155,7 @@ public class AppSwitcherView {
         show()
     }
     
-    public static func showBlur(style: UIBlurEffect.Style = .light, alpha: CGFloat = 0.8) {
+    public static func showBlur(style: UIBlurEffect.Style = .regular, alpha: CGFloat = 0.9) {
         shared.ASVView = nil
         shared.ASVViewController = nil
         shared.ASVType = .blur

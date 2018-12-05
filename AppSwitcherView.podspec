@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppSwitcherView'
-  s.version          = '0.1.0'
-  s.summary          = 'Show your custom View or LaunchScreen as default instead app snapshot in quick App Switcher.'
+  s.version          = '0.1.1'
+  s.summary          = 'Show LaunchScreen or your UIView/UIViewController instead app snapshot in the App Switcher.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'Show your custom View or LaunchScreen as default instead app snapshot in quick App Switcher.'
+'Show LaunchScreen or your UIView/UIViewController instead app snapshot in the App Switcher'
                        DESC
 
   s.homepage         = 'https://github.com/moon4ik/AppSwitcherView'
