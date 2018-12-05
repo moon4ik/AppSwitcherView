@@ -56,13 +56,6 @@ Show LaunchScreen
 AppSwitcherView.show()
 ```
 
-Show snapshot with blur
-
-```Swift
-AppSwitcherView.showBlur() //Default blur settings
-AppSwitcherView.showBlur(style: .dark, alpha: 0.75) //Custom blur settings
-```
-
 Show your custom UIView
 
 ```Swift 
@@ -73,6 +66,13 @@ Show your custom UIViewController
 
 ```Swift
 AppSwitcherView.show(viewController: YOUR_UIVIEWCONTROLLER)
+```
+
+Show snapshot with blur
+
+```Swift
+AppSwitcherView.showBlur() //Default blur settings
+AppSwitcherView.showBlur(style: .dark, alpha: 0.75) //Custom blur settings
 ```
 
 ## Author
