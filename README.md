@@ -2,7 +2,7 @@
 
 ## How to use:
 
-Copy AppSwitcherView to your project
+Copy AppSwitcherView.swift to your project
 
 ### Show LaunchScreen
 
