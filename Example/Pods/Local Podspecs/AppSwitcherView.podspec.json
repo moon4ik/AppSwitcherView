@@ -1,0 +1,22 @@
+{
+  "name": "AppSwitcherView",
+  "version": "0.1.0",
+  "summary": "A short description of AppSwitcherView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Oleksii Mykhailenko/AppSwitcherView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Oleksii Mykhailenko": "ole.mykhailenko@temabit.com"
+  },
+  "source": {
+    "git": "https://github.com/Oleksii Mykhailenko/AppSwitcherView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AppSwitcherView/Classes/**/*"
+}

@@ -1,7 +1,7 @@
 //
 //  AppSwitcherView.swift
 //
-//  Version 0.0.1
+//  Version 0.1.0
 //
 //  Created by Oleksii Mykhailenko on 12/4/18.
 //  Copyright © 2018 Oleksii Mykhailenko. All rights reserved.
@@ -136,7 +136,7 @@ public class AppSwitcherView {
     }
     
     //MARK: - Public func
-
+    
     public static func show() {
         shared.setupWindow()
         shared.begin()
@@ -165,3 +165,4 @@ public class AppSwitcherView {
         show()
     }
 }
+

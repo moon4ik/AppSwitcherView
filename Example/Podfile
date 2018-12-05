@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AppSwitcherView_Tests' do
+  pod 'AppSwitcherView', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+framework module AppSwitcherView {
+  umbrella header "AppSwitcherView-umbrella.h"
+
+  export *
+  module * { export * }
+}

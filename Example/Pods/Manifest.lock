@@ -1,0 +1,16 @@
+PODS:
+  - AppSwitcherView (0.1.0)
+
+DEPENDENCIES:
+  - AppSwitcherView (from `../`)
+
+EXTERNAL SOURCES:
+  AppSwitcherView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppSwitcherView: e5f0af4ca598694f9774ebcbb72050725f6a7d0e
+
+PODFILE CHECKSUM: e2598065b77f5c87e7d47f32ddcf51f46a5f3438
+
+COCOAPODS: 1.5.3
