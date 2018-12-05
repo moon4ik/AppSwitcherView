@@ -1,11 +1,10 @@
 # AppSwitcherView
 
-Show your custom View or LaunchScreen as default instead app snapshot in quick App Switcher.
-
-[![CI Status](https://img.shields.io/travis/Oleksii Mykhailenko/AppSwitcherView.svg?style=flat)](https://travis-ci.org/Oleksii Mykhailenko/AppSwitcherView)
 [![Version](https://img.shields.io/cocoapods/v/AppSwitcherView.svg?style=flat)](https://cocoapods.org/pods/AppSwitcherView)
 [![License](https://img.shields.io/cocoapods/l/AppSwitcherView.svg?style=flat)](https://cocoapods.org/pods/AppSwitcherView)
 [![Platform](https://img.shields.io/cocoapods/p/AppSwitcherView.svg?style=flat)](https://cocoapods.org/pods/AppSwitcherView)
+
+Show your custom View or LaunchScreen as default instead app snapshot in quick App Switcher.
 
 ## Example
 
