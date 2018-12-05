@@ -28,6 +28,7 @@ public class AppSwitcherView {
     private var ASVViewController: UIViewController? = nil
     private var blurStyle: UIBlurEffect.Style = .regular
     private var blurAlpha: CGFloat = 0.9
+    
     //MARK: - Lifecycle
     
     private init() {
@@ -114,9 +115,7 @@ public class AppSwitcherView {
         appSwitcherWindow.rootViewController = appSwitcherViewController
         appSwitcherWindow.windowLevel = UIWindow.Level.alert + 1
     }
-    
-    
-    
+
     private func begin() {
         if isEnabled {
             return
