@@ -66,13 +66,13 @@ AppSwitcherView.showBlur(style: .dark, alpha: 0.75) //Custom blur settings
 Show your custom UIView
 
 ```Swift 
-AppSwitcherView.setup(view: YOUR_UIVIEW)
+AppSwitcherView.show(view: YOUR_UIVIEW)
 ```
 
 Show your custom UIViewController
 
 ```Swift
-AppSwitcherView.setup(viewController: YOUR_UIVIEWCONTROLLER)
+AppSwitcherView.show(viewController: YOUR_UIVIEWCONTROLLER)
 ```
 
 ## Author
