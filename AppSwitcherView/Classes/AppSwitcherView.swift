@@ -46,11 +46,11 @@ public class AppSwitcherView {
     private func addNotifications() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(applicationWillResignActive),
-                                               name: UIApplication.willResignActiveNotification,
+                                               name: NSNotification.Name.NSExtensionHostWillResignActive,
                                                object: nil)
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(applicationDidBecomeActive),
-                                               name: UIApplication.didBecomeActiveNotification,
+                                               name: NSNotification.Name.NSExtensionHostDidBecomeActive,
                                                object: nil)
     }
     
