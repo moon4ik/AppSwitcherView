@@ -46,17 +46,22 @@ public class AppSwitcherView {
     private func addNotifications() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(applicationWillResignActive),
-                                               name: NSNotification.Name.NSExtensionHostWillResignActive,
+                                               name: UIApplication.willResignActiveNotification,
                                                object: nil)
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(applicationDidBecomeActive),
-                                               name: NSNotification.Name.NSExtensionHostDidBecomeActive,
+                                               name: UIApplication.didBecomeActiveNotification,
                                                object: nil)
     }
     
     /// Remove Notification observers
     private func removeNotifications() {
-        NotificationCenter.default.removeObserver(self)
+        NotificationCenter.default.removeObserver(self,
+                                                  name: UIApplication.willResignActiveNotification,
+                                                  object: nil)
+        NotificationCenter.default.removeObserver(self,
+                                                  name: UIApplication.didBecomeActiveNotification,
+                                                  object: nil)
     }
     
     @objc private func applicationWillResignActive() {
