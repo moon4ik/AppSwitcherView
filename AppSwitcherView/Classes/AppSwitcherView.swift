@@ -125,7 +125,7 @@ public class AppSwitcherView {
         }
     }
     
-    public func end() {
+    private func end() {
         if isEnabled {
             removeNotifications()
             isEnabled = false
@@ -135,6 +135,10 @@ public class AppSwitcherView {
     }
     
     //MARK: - Public func
+    
+    public static func remove() {
+        shared.end()
+    }
     
     public static func setup() {
         shared.configureWindow()
