@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AppSwitcherView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Show LaunchScreen or your UIView/UIViewController instead app snapshot in the App Switcher.'
 
 # This description is used to generate tags and improve search results.

@@ -30,7 +30,7 @@ import AppSwitcherView
 ...
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 ...
-AppSwitcherView.show()
+AppSwitcherView.setup()
 ...
 return true
 }
@@ -53,26 +53,26 @@ If you have a *Smart Keyboard* or *Bluetooth keyboard* paired to your iPad, pres
 Show LaunchScreen
 
 ```Swift
-AppSwitcherView.show()
+AppSwitcherView.setup()
 ```
 
 Show your custom UIView
 
 ```Swift 
-AppSwitcherView.show(view: YOUR_UIVIEW)
+AppSwitcherView.setupWith(view: YOUR_UIVIEW)
 ```
 
 Show your custom UIViewController
 
 ```Swift
-AppSwitcherView.show(viewController: YOUR_UIVIEWCONTROLLER)
+AppSwitcherView.setupWith(viewController: YOUR_UIVIEWCONTROLLER)
 ```
 
 Show snapshot with blur
 
 ```Swift
-AppSwitcherView.showBlur() //Default blur settings
-AppSwitcherView.showBlur(style: .dark, alpha: 0.75) //Custom blur settings
+AppSwitcherView.setupWithBlur() //Default blur settings
+AppSwitcherView.setupWithBlur(style: .dark, alpha: 0.75) //Custom blur settings
 ```
 
 ## Author

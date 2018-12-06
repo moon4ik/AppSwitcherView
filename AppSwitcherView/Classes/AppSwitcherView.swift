@@ -1,7 +1,7 @@
 //
 //  AppSwitcherView.swift
 //
-//  Version 0.1.0
+//  Version 0.1.2
 //
 //  Created by Oleksii Mykhailenko on 12/4/18.
 //  Copyright © 2018 Oleksii Mykhailenko. All rights reserved.
@@ -13,7 +13,7 @@ import UIKit
 public class AppSwitcherView {
     
     private enum AppSwitcherType {
-        case none
+        case launchscreen
         case view
         case controller
         case blur
@@ -23,7 +23,7 @@ public class AppSwitcherView {
     public private(set) var isEnabled = false
     private var appSwitcherWindow = UIWindow()
     private var appSwitcherViewController = UIViewController()
-    private var ASVType: AppSwitcherType = .none
+    private var ASVType: AppSwitcherType = .launchscreen
     private var ASVView: UIView? = nil
     private var ASVViewController: UIViewController? = nil
     private var blurStyle: UIBlurEffect.Style = .regular
@@ -77,7 +77,7 @@ public class AppSwitcherView {
         appSwitcherWindow.isHidden = true
     }
     
-    private func setupWindow() {
+    private func configureWindow() {
         switch ASVType {
         case .blur:
             let vc = UIViewController()
@@ -136,32 +136,32 @@ public class AppSwitcherView {
     
     //MARK: - Public func
     
-    public static func show() {
-        shared.setupWindow()
+    public static func setup() {
+        shared.configureWindow()
         shared.begin()
     }
     
-    public static func show(view: UIView) {
+    public static func setupWith(view: UIView) {
         shared.ASVView = view
         shared.ASVViewController = nil
         shared.ASVType = .view
-        show()
+        setup()
     }
     
-    public static func show(viewController: UIViewController) {
+    public static func setupWith(viewController: UIViewController) {
         shared.ASVView = nil
         shared.ASVViewController = viewController
         shared.ASVType = .controller
-        show()
+        setup()
     }
     
-    public static func showBlur(style: UIBlurEffect.Style = .regular, alpha: CGFloat = 0.9) {
+    public static func setupWithBlur(style: UIBlurEffect.Style = .regular, alpha: CGFloat = 0.9) {
         shared.ASVView = nil
         shared.ASVViewController = nil
         shared.ASVType = .blur
         shared.blurStyle = style
         shared.blurAlpha = alpha
-        show()
+        setup()
     }
 }
 
