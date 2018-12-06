@@ -89,7 +89,6 @@ public class AppSwitcherView {
             vc.view.backgroundColor = .clear
             let blurEffect = UIBlurEffect(style: blurStyle)
             let blurEffectView = UIVisualEffectView(effect: blurEffect)
-            
             blurEffectView.alpha = blurAlpha
             blurEffectView.frame = UIScreen.main.bounds
             vc.view.addSubview(blurEffectView)
@@ -120,7 +119,7 @@ public class AppSwitcherView {
         appSwitcherWindow.rootViewController = appSwitcherViewController
         appSwitcherWindow.windowLevel = UIWindow.Level.alert + 1
     }
-
+    
     private func begin() {
         if isEnabled {
             return
@@ -173,4 +172,3 @@ public class AppSwitcherView {
         setup()
     }
 }
-
