@@ -6,6 +6,10 @@
 
 Show LaunchScreen or your UIView/UIViewController instead app snapshot in the [App Switcher](https://support.apple.com/en-us/HT202070).
 
+| ![GitHub Screenshot1](/Images/ScreenShot1.png "Usual App Switcher looks") | ![GitHub Screenshot2](/Images/ScreenShot2.png "App Switcher with AppSwitcherView") |
+| - | - |
+| Before | After |
+
 ## Requirements
 
 - iOS 10.0+
