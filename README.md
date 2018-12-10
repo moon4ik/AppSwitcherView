@@ -40,6 +40,8 @@ return true
 }
 ```
 
+Now you need to setup **Storyboard ID:** `LaunchScreen` for **UIViewController** in **LaunchScreen.storyboard**.
+
 Thats all, run your app and you will see the LaunchScreen when open the App Switcher.
 
 ## How to open App Switcher
